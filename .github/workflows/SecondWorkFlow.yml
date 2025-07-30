@@ -1,0 +1,11 @@
+name: Second-workFlow-practice
+on: workflow_dispatch
+jobs:
+  firstWorkFlow:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Hello
+        run: echo "Hello"
+      - name: Print Bye
+        run: echo "Bye"
+    
